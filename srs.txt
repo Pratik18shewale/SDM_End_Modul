@@ -1,0 +1,43 @@
+Title: Software Requirement Specifications for Online Ticket Booking System
+
+Team:
+Direct Customer, Indirect Customer, Analyst, Software Development team, Design team, Sales team, Marketing team.
+
+Purpose:
+The online ticket booking system provide the customer the facility to check the movie names, movie timings, movie ratings and cost required for that movie. Which is way better than going physically to the theatre and buy ticket.
+It also provide Direct customer the total revenue earned by the movie all over the country online without going to respective theatre.
+
+Scope :
+The online ticket booking system provides 24X7 online assistance to the customers. It also provides time to cancel their ticket prior to the show time to the customers.
+It also provide the authorities the graphical representation of their business whenever they required.
+
+Functional Requirements:
+Ananymous use can brows through the site to see the cost and timings of the movie.
+For details and ticket booking of movie user need to do authentication processs that sign up process.
+Registered customer can book as many seat as he wish and can able to cancel the ticket before some time of actual movie screening time.
+Registered customer can also see his history about when he saw which movie, how many people were go to particular movie and so on.
+Registered customer can give the movie ratings.
+Registered customer can also register the complaint regarding any inconvenience he faced in theatre.
+
+Theatre owner should register himself/herself to see its dashboard.
+Theatre owner will able to see the movie timings, how many people booked the ticket for particular movie.
+Theatre owner can see the graphical representation of the total revenue earned during one day or in month or yearly basis.
+Theatre owner can authorize his or her organization team to allocate the screen to particular movie.
+
+Organization team can see its dashboard only after the authentiction. 
+Organization team can manage to allocate the screen to particular movie for particular timing.
+Organization team can also manage to give refund in case of ticket cancellation by customer for flexibility of the both customer and theatre owner.
+
+Non-Functional Requirements:
+Security:
+The system allows particular role of user for particular authorizes responsibilities. Other than him/her anyone can not do that things.
+It also provides customers data security from any type of data leak.
+
+Durability:
+System can handle the load during peak period of business like Diwali time or any other festival.
+
+Availability:
+The system is available for 24x7 for all stake holders.
+
+Accessibility:
+The system can be accessed through any systrm or device without failure.

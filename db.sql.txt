@@ -1,0 +1,32 @@
+create table customer (
+cust_id int primary key,
+cust_name varchar(30),
+cust_mail varchar(100),
+cust_phone long,
+movie_id int
+foreign key fk_mov(movie_id) references movie(movie_id)
+);
+
+create table Theatre_owner(
+thtr_id int primary key,
+thtr_name varchar(30),
+thtr_owner varchar(30),
+thtr_owner_phone long,
+movie_id int
+foreign key fk_mov(movie_id) references movie(movie_id)
+);
+
+create table movie(
+movie_id int primary key,
+movie_name varchar(30),
+screen_id int,
+actors varchar(30),
+producer varchar(30)
+);
+
+create table O_team(
+member_id int primary key,
+member_name varchar(30),
+mamber_phone long,
+role varchar(30)
+);
